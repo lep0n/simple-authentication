@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="placeholder"></div>
+        <div class="error-text"></div>
+        <form method="POST" action="/account">
+            <input type="text" placeholder="Username" name="username" />
+            <input type="password" placeholder="Password" name="password" />
+            <input class="submit" type="submit" name="login" value="Login" />
+        </form>
+        <div class="placeholder"></div>
+    </div>
+
+    <script src="static/js/login.js"></script>
+</body>
+
+</html>

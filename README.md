@@ -1,0 +1,1 @@
+# ⚡️ Simple authentication on pure FastAPI with cookies

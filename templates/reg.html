@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/css/style.css" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="placeholder"></div>
+        <div class="success-text"></div>
+        <div class="error-text"></div>
+        <form method="POST" action="/register">
+            <input type="text" placeholder="Username" name="username" />
+            <input type="password" placeholder="Password" name="password" />
+            <input type="password" placeholder="Confirm password" name="confirm_password" />
+            <input class="submit" type="submit" name="reg" value="Register" />
+        </form>
+        <div class="placeholder"></div>
+    </div>
+    <script src="static/js/reg.js"></script>
+</body>
+
+</html>
